@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="90" tileheight="78">
+ <tileset firstgid="1" name="tile90_f2" tilewidth="90" tileheight="78" spacing="2" margin="2">
+  <image source="gfx/tile90_f2.png" width="644" height="720"/>
+  <tile id="12">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="64" name="muroswais90" tilewidth="90" tileheight="78">
+  <image source="gfx/muroswais90.png" width="450" height="156"/>
+  <tile id="5">
+   <properties>
+    <property name="pared" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="pared" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="pared" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="pared" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="74" name="esquinas90_f" tilewidth="90" tileheight="78" spacing="2" margin="2">
+  <image source="gfx/esquinas90_f.png" width="644" height="240"/>
+  <tile id="1">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="95" name="muros90_f" tilewidth="90" tileheight="78" spacing="2" margin="2">
+  <image source="gfx/muros90_f.png" width="552" height="640"/>
+  <tile id="1">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="piedra" value=""/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="143" name="enemigos90" tilewidth="90" tileheight="78">
+  <image source="gfx/enemigos90.png" width="450" height="156"/>
+  <tile id="5">
+   <properties>
+    <property name="enemigo" value="moco"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="enemigo" value="gota"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="enemigo" value="globo"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="enemigo" value="fantasma"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="suelo" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+NkYGDgAmLOUXqUHqVH6VF62NAA9wrtvtwFAAA=
+  </data>
+ </layer>
+ <layer name="piedras y sombras y muroArriba" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9NmYGDQAWJdINYDYm0a8I2A2BiITYDYlEZ8egIeIOalIo0NCAOxCBXpUX+M+mPUH6T5Y6gDAAH9EvbcBQAA
+  </data>
+ </layer>
+ <layer name="paredesEditor" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGL7AA4n2QOLjkkPG06loP7HixKj1IIJGx9Syi1h9+NTA6Ok4xKeg6UOPB3R5UuwkJSyINRubXfjihJp24VJHjH9xuZdQfFAzTAn5ixg7cKUH5PRFLIYBByB2BGInIHYGYhc89pMLXIHYDYjdoXZ70sAOABCFU3DcBQAA
+  </data>
+ </layer>
+ <layer name="paredesGame" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEw3AAAv2wkb9wFAAA=
+  </data>
+ </layer>
+ <layer name="ParedesTechoGame" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEw3AAAv2wkb9wFAAA=
+  </data>
+ </layer>
+ <layer name="paredes Transparentes" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEw3AAAv2wkb9wFAAA=
+  </data>
+ </layer>
+ <layer name="ParedesTechoTransparente" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEw3AAAv2wkb9wFAAA=
+  </data>
+ </layer>
+ <layer name="techopiedras  y muroabajo y lados" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PRwoCQRCF4V55BCNGjFdRMaKjYs45Zz28P+hCRgRpazkPPgqqF6+rpZRqo6Nk00UPfQwwxEi4Y4wJpphhjgVsr3eJucQKa2ywxU7sgmf2OOCIE864/Plv87zihrupQzLfOqw7Pqd1x+9570gihTRccMMDOxxwau4zyCKHPAooIoAgQvDCB7/mvoQyDFRQRQ0xxJFAGBFENfd1NNDEA4V1q0vcBQAA
+  </data>
+ </layer>
+</map>

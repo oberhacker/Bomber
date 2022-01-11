@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="45" tileheight="39">
+ <tileset firstgid="1" name="t_ pared_doblearriba45" tilewidth="45" tileheight="39">
+  <image source="gfx/t_ pared_doblearriba45.png" width="270" height="117"/>
+  <tile id="4">
+   <properties>
+    <property name=" muro" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="muro" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="muro" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="muro" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="19" name="piedra_45" tilewidth="45" tileheight="39">
+  <image source="gfx/piedra_45.png" width="135" height="117"/>
+  <tile id="4">
+   <properties>
+    <property name="muro" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="28" name="t_paredesLaterales_45" tilewidth="45" tileheight="39">
+  <image source="gfx/t_paredesLaterales_45.png" width="270" height="312"/>
+ </tileset>
+ <tileset firstgid="76" name="t_muroswais45" tilewidth="45" tileheight="39">
+  <image source="gfx/t_muroswais45.png" width="225" height="78"/>
+  <tile id="5">
+   <properties>
+    <property name="pared" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="pared" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="pared" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="pared" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="86" name="enem_45" tilewidth="45" tileheight="39">
+  <image source="gfx/enem_45.png" width="450" height="39"/>
+  <tile id="0">
+   <properties>
+    <property name="enemigo" value="moco"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="enemigo" value="moneda"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="enemigo" value="gota"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="enemigo" value="globo"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="enemigo" value="fantasma"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="enemigo" value="gotanaranja"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="96" name="t_murosbajo45" tilewidth="45" tileheight="39">
+  <image source="gfx/t_murosbajo45.png" width="360" height="117"/>
+ </tileset>
+ <tileset firstgid="120" name="t_hierva" tilewidth="45" tileheight="39">
+  <image source="gfx/t_hierva.png" width="180" height="117"/>
+ </tileset>
+ <layer name="suelo" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC6tlYGCoBOLaUXqUHqXJousI8EfpUZqW6Q0XDQCG8VL/3AUAAA==
+  </data>
+ </layer>
+ <layer name="piedras sombra y muroarriba" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NggAAmIGYGYhYgZqUSHx1wADEnEHMBMTeV+OiAD4j5gVgAiAWpxEcHYkAsTkUaG5AEYikq0tjAqD9G/THqD9z+GOoAAOVC5vbcBQAA
+  </data>
+ </layer>
+ <layer name="paredesEditor" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGDkgZKAdQCUwlP0RggUPFYDsXmx+wCY32AAudw/leKE28AFiXyD2A2J/IA6ggR2BQBwExMEMkLAOpYEdAIQEh+HcBQAA
+  </data>
+ </layer>
+ <layer name="paredesGame" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYPCAyIF2wCgYkmA03WACAKECc2PcBQAA
+  </data>
+ </layer>
+ <layer name="Capa de patrones 8" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEw3AAAv2wkb9wFAAA=
+  </data>
+ </layer>
+ <layer name="ParedesTechoGameND" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEw3AAAv2wkb9wFAAA=
+  </data>
+ </layer>
+ <layer name="ParedesTransparentesND" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEw3AAAv2wkb9wFAAA=
+  </data>
+ </layer>
+ <layer name="techopiedras" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PRwoCQRCF4T6ES3PWMecxjYIB9BRGcEYF4/n9QRcyIohdy3nwUVC9eF1+pVQAQSWbEMKIIIoY4sIdCSSRQhoZZOF7vUtMAznkUUARJbELnimjgipqqKOh+W/3bKIF09UhmW8d3h2f07vj97x3tNFBF0ussMYGWyz+3PfQh4UBhtjBhoM9Djhq7kcYY4IpTjjjgituuGvuZ5jjAaNqRmfcBQAA
+  </data>
+ </layer>
+</map>

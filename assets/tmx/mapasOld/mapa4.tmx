@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="90" tileheight="78">
+ <tileset firstgid="1" name="tile90_f2" tilewidth="90" tileheight="78" spacing="2" margin="2">
+  <image source="gfx/tile90_f2.png" width="644" height="720"/>
+  <tile id="12">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="piedra" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="64" name="muroswais90" tilewidth="90" tileheight="78">
+  <image source="gfx/muroswais90.png" width="450" height="156"/>
+  <tile id="8">
+   <properties>
+    <property name="pared" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="suelo" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+NkYGDgAmLOUXqUHqVH6VF62NAA9wrtvtwFAAA=
+  </data>
+ </layer>
+ <layer name="piedras y muroArriba" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9NmYGDQAWJdINYDYm0a8I2A2BiITYDYlEZ8egIeIOalIo0NCAOxCBXpUX+M+mPUH6T5Y6gDAAH9EvbcBQAA
+  </data>
+ </layer>
+ <layer name="ParedesEditor" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjgLbAg056Bhqgu3ko+mEUDB8AABBKIkPcBQAA
+  </data>
+ </layer>
+ <layer name="paredes game" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEw3AAAv2wkb9wFAAA=
+  </data>
+ </layer>
+ <layer name="paredestecho" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEw3AAAv2wkb9wFAAA=
+  </data>
+ </layer>
+ <layer name="paredes transparentes" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEw3AAAv2wkb9wFAAA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 7" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEw3AAAv2wkb9wFAAA=
+  </data>
+ </layer>
+ <layer name="Tile Layer 8" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGD6Alw7mjtoxaseoHSPDDlphegEAT+5MEtwFAAA=
+  </data>
+ </layer>
+</map>
