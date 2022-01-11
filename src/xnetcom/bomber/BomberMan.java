@@ -489,9 +489,9 @@ public class BomberMan {
 
 	int diffX;
 	int diffY;
-//	private TMXTile tmxTile;	
+	private TMXTile tmxTile;	
 	public void updateHandler() {
-//		tmxTile= context.getGameManager().getTmxSuelo().getTMXTileAt(100,100);
+		tmxTile= context.getGameManager().getTmxSuelo().getTMXTileAt(100,100);
 		context.getEscenaJuego().registerUpdateHandler(new IUpdateHandler() {
 			PlayerDirection playerDirectionLocal = PlayerDirection.NONE;
 			public void reset() {}
@@ -1181,7 +1181,7 @@ public class BomberMan {
 	}
 		
 	/**
-	 * cada vez que se cambie de baldosa se pone la nueva posición en la tabla de posiciones en su array propio
+	 * cada vez que se cambie de baldosa se pone la nueva posic en la tabla de posiciones en su array propio
 	 */
 
 
@@ -1406,7 +1406,7 @@ public class BomberMan {
 	private PlayerPosicion posicionRelativa;
 	
 	/**
-	 * devuelve un enumerado la posición relativa tanto horizontal como vertical
+	 * devuelve un enumerado la posicin relativa tanto horizontal como vertical
 	 */
 	
 	public synchronized PlayerPosicion getPosicionRelativa(){

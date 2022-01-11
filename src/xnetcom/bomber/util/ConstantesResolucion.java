@@ -45,7 +45,7 @@ public class ConstantesResolucion {
 	private static int btn_Bx_MASTER;
 	private static int btn_By_MASTER;
 
-	// tamaño botones
+	// tamao botones
 	private static float btn_size_MASTER;
 
 	// boton restaurar
@@ -67,7 +67,7 @@ public class ConstantesResolucion {
 	private static int botones_menos_X_MASTER;
 	private static int botones_menos_Y_MASTER;
 
-	// tamaño de los botones de + - del menu
+	// tamao de los botones de + - del menu
 	private static float btnMenu_Size_MASTER;
 
 	// constantes del menu de niveles
@@ -180,7 +180,7 @@ public class ConstantesResolucion {
 	private  final static int btn_Bx_16_9_M=1042;
 	private  final static int btn_By_16_9_M=500;
 	
-	// tamaño botones 
+	// tamao botones
 	private  final static float btn_size_16_9_M=0.7f;
 	
 	//boton restaurar
@@ -206,7 +206,7 @@ public class ConstantesResolucion {
 
 
 
-	// tamaño de los botones de + - del menu
+	// tamao de los botones de + - del menu
 	private  final static float btnMenu_Size_16_9_M=1f;
 	
 	private  final static int offsetX_camara_16_9_M=0;
@@ -308,7 +308,7 @@ public class ConstantesResolucion {
 	private  final static int btn_Bx_WVGA=962;
 	private  final static int btn_By_WVGA=500;
 	
-	// tamaño botones 
+	// tamao botones
 	private  final static float btn_size_WVGA=0.7f;
 	
 	//boton restaurar
@@ -333,7 +333,7 @@ public class ConstantesResolucion {
 
 
 
-	// tamaño de los botones de + - del menu
+	// tamao de los botones de + - del menu
 	private  final static float btnMenu_Size_WVGA=1f;
 	
 	
@@ -430,7 +430,7 @@ public class ConstantesResolucion {
 	private  final static int btn_Bx_QVGA=962;
 	private  final static int btn_By_QVGA=500;
 	
-	// tamaño botones 
+	// tamao botones
 	private  final static float btn_size_QVGA=0.7f;
 	
 	//boton restaurar
@@ -455,7 +455,7 @@ public class ConstantesResolucion {
 
 
 
-	// tamaño de los botones de + - del menu
+	// tamao de los botones de + - del menu
 	private  final static float btnMenu_Size_QVGA=1f;
 	
 	
@@ -611,7 +611,7 @@ public class ConstantesResolucion {
 		  btn_Bx_MASTER =  btn_Bx_QVGA;
 		  btn_By_MASTER =btn_By_QVGA;
 
-		// tamaño botones
+		// tamao botones
 		  btn_size_MASTER = btn_size_QVGA;
 
 		// boton restaurar
@@ -633,7 +633,7 @@ public class ConstantesResolucion {
 		  botones_menos_X_MASTER = botones_menos_X_QVGA;
 		  botones_menos_Y_MASTER = botones_menos_Y_QVGA;
 
-		// tamaño de los botones de + - del menu
+		// tamao de los botones de + - del menu
 		  btnMenu_Size_MASTER = btnMenu_Size_QVGA;
 
 		// constantes del menu de niveles
@@ -713,7 +713,7 @@ public class ConstantesResolucion {
 		  btn_Bx_MASTER =  btn_Bx_16_9_M;
 		  btn_By_MASTER =btn_By_16_9_M;
 
-		// tamaño botones
+		// tamao botones
 		  btn_size_MASTER = btn_size_16_9_M;
 
 		// boton restaurar
@@ -735,7 +735,7 @@ public class ConstantesResolucion {
 		  botones_menos_X_MASTER = botones_menos_X_16_9_M;
 		  botones_menos_Y_MASTER = botones_menos_Y_16_9_M;
 
-		// tamaño de los botones de + - del menu
+		// tamao de los botones de + - del menu
 		  btnMenu_Size_MASTER = btnMenu_Size_16_9_M;
 
 		// constantes del menu de niveles
@@ -817,7 +817,7 @@ public class ConstantesResolucion {
 	  btn_Bx_MASTER =  btn_Bx_WVGA;
 	  btn_By_MASTER =btn_By_WVGA;
 
-	// tamaño botones
+	// tamao botones
 	  btn_size_MASTER = btn_size_WVGA;
 
 	// boton restaurar
@@ -839,7 +839,7 @@ public class ConstantesResolucion {
 	  botones_menos_X_MASTER = botones_menos_X_WVGA;
 	  botones_menos_Y_MASTER = botones_menos_Y_WVGA;
 
-	// tamaño de los botones de + - del menu
+	// tamao de los botones de + - del menu
 	  btnMenu_Size_MASTER = btnMenu_Size_WVGA;
 
 	// constantes del menu de niveles

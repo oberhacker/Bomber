@@ -116,7 +116,7 @@ public void inteligencia(){
 		EnemigoDirection dirSeguidorSalto= seguidorSalto();
 		
 		if (dirSeguidor==EnemigoDirection.NONE && dirSeguidorSalto!=EnemigoDirection.NONE){
-			System.out.println("·");
+			System.out.println("?");
 		}
 		
 		EnemigoDirection direccionActual = this.direccion;

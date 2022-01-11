@@ -14,18 +14,19 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import xnetcom.bomber.BomberGame;
+import xnetcom.bomber5.R;
 import xnetcom.bomber.entidades.Moneda.TipoMoneda;
 import xnetcom.bomber.sql.DatosMapa;
-import xnetcom.bomber5.R;
+//import xnetcom.bomber5.R;
 import android.util.Log;
 
 
 
 public class ParserXML {
-	
-		
-	
-	
+
+
+
+
 	private Document dom;
 	private DocumentBuilder builder;
 	private BomberGame context;
@@ -40,7 +41,7 @@ public class ParserXML {
 		
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		try {
-			
+
 			InputStream fraw = context.getResources().openRawResource(R.raw.maps);
 			builder = factory.newDocumentBuilder();
 			dom = builder.parse(fraw);

@@ -32,7 +32,7 @@ public class BomberEstado {
 		return controlRemoto;
 	}
 
-	private Integer tamExplosion;		// tamaño de la esplosion
+	private Integer tamExplosion;		// tamao de la esplosion
 	private Integer numBombas;
 	private Integer vidas;
 	private boolean MVELOCIDAD=false;	//velocidad 

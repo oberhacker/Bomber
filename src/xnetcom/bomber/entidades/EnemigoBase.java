@@ -16,7 +16,7 @@ import org.andengine.entity.scene.Scene;
 import org.andengine.entity.shape.IShape;
 import org.andengine.entity.sprite.AnimatedSprite;
 import org.andengine.entity.sprite.AnimatedSprite.IAnimationListener;
-
+import org.andengine.extension.tmx.TMXLayer;
 
 import xnetcom.bomber.BomberGame;
 import xnetcom.bomber.util.Coordenadas;
@@ -28,7 +28,7 @@ public abstract class EnemigoBase extends Rectangle{
 	protected Rectangle cuadradoMascara;
 	protected AnimatedSprite principal;	
 	protected AnimatedSprite transparencia;
-
+	protected TMXLayer tmxLayer ;
 	
 	protected Rectangle currentTileRectangle;
 	
@@ -46,7 +46,7 @@ public abstract class EnemigoBase extends Rectangle{
 	protected boolean fliped=false;
 	protected boolean muerto=false;
 	public boolean inicioInteligencia =false;
-
+	//protected TMXTile tmxTile;
 	protected EnemigoDirection direccion;
 	protected long tiempoFotograma;
 	protected EnemigoDirection direccionAnimacion=EnemigoDirection.NONE;

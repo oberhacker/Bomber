@@ -434,6 +434,7 @@ public static boolean visibleSuperficiesDeControl= false;
 	Camera getCamera (){
 		return camera;
 	}
+	MiEngine en;
 	@Override
 	public EngineOptions onCreateEngineOptions() {
 		BomberGame.game=this;
@@ -445,9 +446,9 @@ public static boolean visibleSuperficiesDeControl= false;
 
 		};
 //		engineOptions.getTouchOptions().setRunOnUpdateThread(true);//no en gles2
-		engineOptions.getAudioOptions().setNeedsSound(true).setNeedsMusic(true);
-		
-		MiEngine en =new MiEngine(engineOptions, this.camera);
+		engineOptions.getAudioOptions().setNeedsSound(true);
+		engineOptions.getAudioOptions().setNeedsMusic(true);
+		en =new MiEngine(engineOptions, this.camera);
 		
 		try {
 			en.setTouchController(new MultiTouchController());
@@ -462,7 +463,7 @@ public static boolean visibleSuperficiesDeControl= false;
 
 	@Override
 	public Engine onCreateEngine(final EngineOptions pEngineOptions) {
-		return new MiEngine(pEngineOptions,camera);
+		return en;
 	}
 	
 	public String DetectorRatio(){	
