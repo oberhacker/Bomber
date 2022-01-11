@@ -740,7 +740,7 @@ public static boolean visibleSuperficiesDeControl= false;
 		
 		gameManager = new GameManager(this);
 		gameManager.setDisplay(hudDisplay);
-//		gameManager.precargaMapas();
+		gameManager.precargaMapas();
 		gameManager.cargarBomberMan();
 		
 		Sprite botonPause = new Sprite(0, 0, resourManager.getPauseTR(),this.getVertexBufferObjectManager()){
