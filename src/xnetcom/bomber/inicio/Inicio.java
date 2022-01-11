@@ -136,7 +136,7 @@ public class Inicio {
 			offset=130;
 		}*/
 		
-		fondo=new Sprite(-offset, 0, resouceManager.getFondo_inicio_TR(),context.getEngine().getVertexBufferObjectManager());
+		fondo=new Sprite(ConstantesResolucion.getCAMERA_WIDTH_MASTER()/2, ConstantesResolucion.getCAMERA_HEIGHT_MASTER()/2, resouceManager.getFondo_inicio_TR(),context.getEngine().getVertexBufferObjectManager());
 		
 
 		misiones = new Sprite(offset+30, 350, resouceManager.getCampaignTR(),context.getEngine().getVertexBufferObjectManager()){

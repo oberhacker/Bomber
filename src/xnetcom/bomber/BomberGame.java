@@ -1036,7 +1036,7 @@ public static boolean visibleSuperficiesDeControl= false;
 		
 		//getEngine().setScene(escenaJuego);		
 		// cargamos superficies de control			
-			
+		pOnPopulateSceneCallback.onPopulateSceneFinished();
 	}
 
 	
