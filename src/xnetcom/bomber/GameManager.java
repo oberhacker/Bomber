@@ -222,13 +222,13 @@ public class GameManager {
 		
 		//tmxTechoPiedras.setScale(BomberGame.FACTOR);
 		
-		scene.attachChild(tmxSuelo);
-		scene.attachChild(tmxPiedras);
-		scene.attachChild(tmxParedesGame);
-		scene.attachChild(tmxParedesTechoGame);
+		scene.attachChild(mTMXTiledMap);
+//		scene.attachChild(tmxPiedras);
+//		scene.attachChild(tmxParedesGame);
+//		scene.attachChild(tmxParedesTechoGame);
 		//scene.attachChild(tmxParedesTransp);
 		//scene.attachChild(tmxParedesTranspTecho);
-		scene.attachChild(tmxTechoPiedras);
+//		scene.attachChild(tmxTechoPiedras);
 		
 		if (currentTileRectangle == null) {
 			currentTileRectangle = new Rectangle(0, 0, this.mTMXTiledMap.getTileWidth(), this.mTMXTiledMap.getTileHeight(),context.getVertexBufferObjectManager());
@@ -512,10 +512,12 @@ public class GameManager {
 		numParedes=0;
 		getMatriz().reiniciaMatriz();
 		getMatrizReferencia().reiniciaMatriz();
-		
+
 		try {
 			//System.out.println("me pongo a cargarrr "+"tmx/"+snivel+".tmx");
 			map = tmxLoader.loadFromAsset("tmx/"+snivel+".tmx");
+			
+			
 			//System.out.println("cargado mapa ok");
 			//Toast.makeText(this, "Cactus count in this TMXTiledMap: " + this.mCactusCount, Toast.LENGTH_LONG).show();
 		} catch (final TMXLoadException tmxle) {
@@ -523,6 +525,9 @@ public class GameManager {
 			//tmxle.printStackTrace();
 			//Debug.e(tmxle);
 			System.out.println("ERORRR de XML");
+			
+		}catch (Exception e) {
+			System.out.println("ERORRR de wwwwwXML");
 		}
 		//getMatriz().pintaMatriz();
 		

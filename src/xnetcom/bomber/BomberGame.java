@@ -120,28 +120,7 @@ public static boolean visibleSuperficiesDeControl= false;
 	public static ConstantesResolucion RESOLUCION;
 	
 	public static BomberGame game; 
-	/*
-	public static final int ZINDEX_SUELO = 30;
-	public static final int ZINDEX_PIEDRAS_SOMBRAS_MUROARRIBA = 40;
-	public static final int ZINDEX_PAREDES = 70;
-	public static final int ZINDEX_MONEDAS = 80;
-	public static final int ZINDEX_PAREDES_TECHO = 90;
-	public static final int ZINDEX_ENEMIGOS_TRANSPARENTES = 95;
-	public static final int ZINDEX_PAREDES_TRANSPARENTES = 100;
-	public static final int ZINDEX_PAREDES_TRANSPARENTES_TECHO = 100;
-	public static final int ZINDEX_BOMBAS = 110;
-	public static final int ZINDEX_BOMBERMAN_Arriba = 120;// 120 - 80
-	public static final int ZINDEX_BOMBERMAN_Abajo  = 120;// 120 - 80
-	public static final int ZINDEX_ENEMIGOS = 119; // 119- 79
-	public static final int ZINDEX_FUEGO = 150;
-	public static final int ZINDEX_PIEDRAS_TECHO = 160;
-	public static final int ZINDEX_MUROSLATERAL_ABAJO = 170;
-	public static final int ZINDEX_PARRAS_SOMBRAS = 190;
-	public static final int ZINDEX_PARRAS = 200;
-	public static final int ZINDEX_MUROFRAGMENTOS = 210;
-	
-	
-	*/
+
 	
 	
 	DatabaseHandler basedatos;
