@@ -58,47 +58,16 @@ public class Carga {
 	public Scene onLoadScene() {
 		ScenaCarga = new Scene();		
 		
-		barra = new Sprite(ConstantesResolucion.getOffsetX_camara(), 0, textureR,context.getVertexBufferObjectManager());
-		barra.setPosition(0, ConstantesResolucion.getCAMERA_HEIGHT_MASTER()-barra.getHeight());
+		barra = new Sprite(0, 0, textureR,context.getVertexBufferObjectManager());
+		barra.setPosition(0, 0);
 		
-		text = new Text(ConstantesResolucion.getOffsetX_camara() +30, barra.getY()-(mFont.getLineHeight()+5), mFont, "Loading...                 ",context.getVertexBufferObjectManager());	
+		text = new Text(0, barra.getHeight()+20, mFont, "Loading...",context.getVertexBufferObjectManager());	
+		text.setPosition(text.getWidth()/2, text.getY());
 		ScenaCarga.attachChild(barra);
 		ScenaCarga.attachChild(text);
 		
 		return ScenaCarga;
 	}
-	/*
-
-	public void onLoadComplete() {		
-		
-		//System.out.println("onload complete");
-		Thread hilo = new Thread(){
-			@Override
-			public void run() {
-				int por=0;
-				while(true){					
-					setPorcentaje(por);					
-					//text.setText("width "+width +" "+por);
-					por+=10;
-					try {
-						Thread.sleep(1000);
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-				}
-
-			}
-		};				
-		
-		height =mBoundChaseCamera.getHeight();
-		width =mBoundChaseCamera.getWidth();
-		
-		text.setPosition(20, height-barra.getHeight()-text.getHeight()-30);
-		barra.setPosition(0, height-barra.getHeight());
-		//hilo.start();					
-	}
-*/
 	
 	public void onLoadComplete() {
 		context.runOnUiThread(new Runnable() {			
@@ -117,25 +86,6 @@ public class Carga {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
-                    	 /*
-                    	 Thread hilo = new Thread(){
-                 			
-                    		 int i=0;
-                 			public void run() {                 				
-                 				while(i<20){					
-                 					//incrementaProcentaje(3);
-                 					i++;
-                 					try {
-                 						Thread.sleep(500);
-                 					} catch (InterruptedException e) {
-                 						// TODO Auto-generated catch block
-                 						e.printStackTrace();
-                 					}
-                 				}
-
-                 			}
-                 		};		
-                 		hilo.start();*/
                  		
                      }
 
@@ -169,16 +119,13 @@ public class Carga {
 				
 			}
 		});
-		//mapas = new MenuMapas(this);
-		//opciones = new MenuOpciones();
-		
-		
+
 	}
 	
 	int width=ConstantesResolucion.getCAMERA_WIDTH_MASTER();
 	int parcial=1;
 	public void setPorcentaje(float porciento){		
-		barra.setWidth((porciento/100)*width);
+		barra.setWidth((porciento/100)*width*2);
 	}
 	
 	
